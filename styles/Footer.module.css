@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(1deg, rgba(243, 89, 0, 0.708) 0%, rgba(255,255,255,0) 20rem);
+}
+.footerSpan{
+    color: rgba(243, 89, 0, 0.822);
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.social {
+    display: flex;
+    gap: 1rem;
+}
+.social>* {
+    fill: rgba(243, 89, 0, 0.822);
+}
+.bottomSpan {
+    font-weight: bold;
+}

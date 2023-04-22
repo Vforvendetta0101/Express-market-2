@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    position: relative;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cherryDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-style: 0.8rem;
+    color: rgba(243, 89, 0, 0.708);
+    font-weight: bold;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.boldText {
+    font-weight: bold;
+}
+.miniText{
+    width: 50%;
+    color: gray;
+    font-weight: 600;
+}
+.btn{
+    padding: 1rem 2.5rem;
+}
+.right {
+    position: relative;
+}
+.imageContainer {
+    width: 38rem;
+    position: absolute;
+    top: 5rem;
+    right: -5rem;
+}
+.ContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 6rem;
+    gap: 1rem;
+    right: 25rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: rgba(243, 89, 0, 0.708);
+}
+.ContactUs>div {
+    background-color: green;
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+}
+.ContactUs:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Product {
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 35rem;
+    right: 2rem;
+    width: max-content;
+}
+.Product>:nth-child(1){
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+.Product>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.Product:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
