@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'expressMarket',
+  title: 'express~Delivery',
 
-  projectId: 'dv1u90x5',
+  projectId: 'ejsof3r6',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],

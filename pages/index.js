@@ -4,9 +4,10 @@ import Hero from "../components/Hero";
 import css from '../styles/Home.module.css'
 import Services from "../components/Services";
 import { client } from "../lib/client";
+import Menu from "../components/Menu";
 
 
-export default function Home() {
+export default function Home({products}) {
   return (
     <Layout>
       <div className={css.container}>
@@ -19,17 +20,17 @@ export default function Home() {
         <main>
             <Hero />
             <Services />
+            <Menu products={products} />
         </main>
       </div>
     </Layout>
   );
-}
+};
 
-
-export const getServerSideProps = async()=>{
+export const getServerSideProps = async() => {
   const query = '*[_type == "product"]';
   const products = await client.fetch(query);
-  return{
+  return {
     props: {
       products
     }

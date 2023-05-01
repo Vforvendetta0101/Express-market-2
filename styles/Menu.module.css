@@ -11,7 +11,7 @@
     justify-content: flex-start;
 }
 .heading>:nth-child(1){
-    color: rgba(243, 89, 0, 0.708);
+    color: rgb(243, 89, 0);
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -20,8 +20,8 @@
 }
 .menu {
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 2rem;
+    flex-wrap:wrap;
+    row-gap: 3rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -32,17 +32,22 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 1.5rem;
     border-radius: 2rem;
+    margin-right: 40px;
 }
 .ImageWrapper {
     height: 16rem;
     width: 16rem;
-    position: relative;
+    position: relative; 
     overflow: hidden;
     border-radius: 2rem;
+}
+.product:hover {
+    box-shadow: 0px 0px 30px 5px black;
+    transition: 1s;
 }
 .ImageWrapper>span>img:hover {
     transform: scale(1.1);

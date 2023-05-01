@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+.imageWrapper{
+    position: relative;
+    width: 16rem;
+    height: 25rem;
+    margin-left:  15rem;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.imageWrapper>span>img:hover {
+    transform: scale(1.1);
+}
+.right {
+    align-items: start;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.right>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgb(243,90,0);
+}
+.size {
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.SizeVariants{
+    display: flex;
+    gap: 0.6rem;
+    font-weight: normal;
+    color: rgb(243,90,0);
+    font-size: 0.8rem;
+}
+.SizeVariants >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid rgb(243,90,0);
+    border-radius: 2rem;
+}
+.SizeVariants>div:hover {
+    background-color: rgb(243,90,0);
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.quantity {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    gap: 3rem;
+}
+.counter {
+    display: flex;
+    gap: 1rem;
+}
+.btn {
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(243,90,0);
+}
+.selected {
+    background-color: rgb(243,90,0);
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.changeImgColor {
+    filter: invert(42%) sepia(85%) saturate(4644%) hue-rotate(17deg) brightness(107%) contrast(111%);
+}

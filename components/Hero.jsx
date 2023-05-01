@@ -21,7 +21,7 @@ export default function Hero(){
                          გამოძახებების სერვისებს შორის
                     </span>
                     <span>
-                        მიიღე ყველაზე სწრაფად შენი <span className={css.boldText} style={{color: "rgba(243, 89, 0, 0.708)"}}>პროდუქტი</span>
+                        მიიღე ყველაზე სწრაფად შენი <span className={css.boldText} style={{color: "rgb(243, 89, 0)"}}>პროდუქტი</span>
                     </span>
                 </div>
                 <span className={css.miniText}>
