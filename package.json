@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Vforvendetta0101.github.io/Express-market-2",
+  "homepage": "https://vforvendetta0101.github.io/Express-market-2/",
   "name": "productshop",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    
   },
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
